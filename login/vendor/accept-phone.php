@@ -48,7 +48,7 @@ if(!$err) {
                 setcookie("id", $idus, time()+23760, "/");
                 setcookie("id_gr", $idgr, time()+23760, "/");
                 header("Location: ../../dashboard/admin.php");
-            } elseif($post4["usgroup"] == "2") {
+            } elseif($post4["usgroup"] == "3") {
                 setcookie("id", $idus, time()+23760, "/");
                 setcookie("id_gr", $idgr, time()+23760, "/");
                 header("Location: ../../userpage/index.php");

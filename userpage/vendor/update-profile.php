@@ -9,6 +9,6 @@ $email = $_POST['email'];
 
 mysqli_query($link, "UPDATE `users` SET `fio` = '$fio', `phone` = '$phone', `email` = '$email' WHERE `users`.`id` = '$id'");
 
-header("Location: ../admin.php");
+header("Location: ../index.php");
 
 ?>
